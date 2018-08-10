@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.nav-wrapper{
+position: fixed;
+height: 200px;
+}
+.enca{
+  position: absolute;
+  width: 100%;
+}
+header ul li a:hover{
+color: #FF5274;
+}
+header ul{
+  margin-top: 30px;
+  margin-right: 40%;
+}
+.senda{
+  margin-top: 53px;
+  margin-left: 100px;
+}
+.inicio{
+  position: absolute;
+  top: 30px;
+  right: 300px;
+  color: white;
+}
+.in{
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 30px;
+  right: 170px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+}
