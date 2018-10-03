@@ -6,44 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/index.css">
-    <title>Sedna - A Free HTML5/CSS3</title>
+    <title>Sedna</title>
 </head>
 <body>
-  <header>
-    <div class="fijo">
-      <nav class="my-awesome-navbar transparent container">
-        <div class="row">
-          <div class="col s2">
-            <a href="#!" class="brand-logo">
-              <img class= "logo" src="img/sedna-logo@2x.png">
-            </a>
-          </div>
-          <div>
-            <ul class="left ">
-              <li><a href="sass.html">FEATURES</a></li>
-              <li><a href="badges.html">ASSETS</a></li>
-              <li><a href="collapsible.html">BLOG</a></li>
-              <li><a href="mobile.html">DOWNLOAD</a></li>
-            </ul>
-            <ul class="right">
-              <li><a class="log" href="sass.html">LOG IN</a></li>
-              <li><a class="btn bt1">SIGN UP</a></li>
-            </ul>
-          </div>
+  <div class="fijo">
+    <nav class="my-awesome-navbar transparent container">
+      <div class="row">
+        <div class="col s2">
+          <a href="fijo" class="brand-logo">
+            <img class= "logo" src="assets/sedna-logo@2x.png">
+          </a>
         </div>
-      </nav>
-    </div>
-  </header>
+        <div >
+            <ul class="left" >
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#assets">ASSETS</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#download">DOWNLOAD</a></li>
+            </ul>
+            </div>
+            <div>
+          <ul class="right">
+            <li><a class="log" href="">LOG IN</a></li>
+            <li><a class="btn bt1">SIGN UP</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
   <header class="fondo">
     <div class="contenedor">
       <section class="parrafo">
         <h1 class="titulo">Design, collaborate, win!</h1>
         <p class="par">Introducing "Sedna". A responsive one page website, designed & developed exclusively for Codrops.</p>
         <div>
-          <a class="bt2">DOWNLOAD</a>
-          <a class="bt3">LEARN MORE</a>
+          <a href="download" class="bt2" >DOWNLOAD</a>
+          <a href="" class="bt3">LEARN MORE</a>
         </div>
       </section>
         <div class="icono">
@@ -52,28 +54,275 @@
     </div>
     </header>
 
-    <header class="row">
-      <div class="col s4">
-          <img class= "img left" src="img/drawing.png  ">
-          <h5 class="ti">EASILY CUSTOMISED</h5>
-          <p class="tex">Easily customise Sedna to suit your start up, portfolio or product. Take advantage of the layered Sketch file and bring your product to life.</p>
-      </div>
-      <div class="col s4">
-          <img class= "img left" src="img/light-bulb.png ">
-          <h5 class="ti">MODERN DESING</h5>
-          <p class="tex">Designed with modern trends and techniques in mind, Sedna will help your product stand out in an already saturated market.</p>
+    <section class="row textos">
+          <div class="col m12 l4 columna">
+          <article class="icono1"><img class= "img" src="assets/drawing.png"></article>
+          <div class="contenido">
+            <h5 class="ti">EASILY CUSTOMISED</h5>
+            <p class="tex">Easily customise Sedna to suit your start up, portfolio or product. Take advantage of the layered Sketch file and bring your product to life.</p>
           </div>
-      <div class="col s4">
-          <img class= "img left" src="img/atom.png ">
-          <h5 class="ti">RESPONSIVE DEVELOPMENT</h5>
-          <p class="tex">Built using the latest web technologies like html5, css3, and jQuery, rest assured Sedna will look smashing on every device under the sun.</p>
       </div>
+      <div class="col m12 l4 columna">
+          <article class="icono1"><img class= "img" src="assets/light-bulb.png "></article>
+          <div class="contenido">
+            <h5 class="ti">MODERN DESING</h5>
+            <p class="tex">Designed with modern trends and techniques in mind, Sedna will help your product stand out in an already saturated market.</p>
+          </div>
+          </div>
+      <div class="col m12 l4 columna">
+          <article class="icono1"><img class= "img" src="assets/atom.png "></article>
+          <div class="contenido">
+            <h5 class="ti">RESPONSIVE DEVELOPMENT</h5>
+            <p class="tex">Built using the latest web technologies like html5, css3, and jQuery, rest assured Sedna will look smashing on every device under the sun.</p>
+          </div>
+      </div>
+    </section>
 
-    </header>
+    <section id="features" class=" section scrollspy introduccion2">
+      <div class="container">
+          <div class="row">
+              <div class="col-m5 col-m-offset-7">
+                  <div class="tema1">
+                      <h3>Sedna will drive your product forward</h3>
+                      <p>
+                          Present your product, start up, or portfolio in a beautifully modern way. Turn your visitors in to
+                          clients.
+                      </p>
+                  <ul class="conte-icon">
+                      <li class="image-icon">
+                          <img class="uno" src="assets/uno.png">
+                          <div class="content">
+                              <h5>UNIVERSAL &amp; RESPONSIVE</h5>
+                              <p>
+                                  Sedna is universal and will look smashing on any device.
+                              </p>
+                          </div>
+                      </li>
+                      <li class="image-icon">
+                          <img class="uno" src="assets/dos.png">
+                          <div class="content">
+                              <h5>USER CENTRIC DESIGN</h5>
+                              <p>
+                                  Sedna takes advantage of common design patterns, allowing for a seamless experience
+                                  for users of all levels.
+                              </p>
+                          </div>
+                      </li>
+                      <li class="image-icon">
+                          <img class="uno" src="assets/tres.png">
+                          <div class="content">
+                              <h5>CLEAN REUSABLE CODE</h5>
+                              <p>
+                                  Download and re-use the Sedna open source code for any other project you like.
+                              </p>
+                          </div>
+                      </li>
+                  </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="movil-img">
+          <div class="devices">
+              <div data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" class="ipad-wrap"><img src="assets/ipad-device.png" alt=""></div>
+              <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" class="iphone-wrap"><img src="assets/iphone6.png" alt=""></div>
+          </div>
+      </div>
+      <div class="responsive2-img">
+          <img src="assets/devices@2x.png" width="819" height="477">
+      </div>
+  </section>
 
+  <section id="assets" class=" section scrollspy  features introduccion3">
+      <div class="container">
+          <div class="row">
+              <div class="col m5">
+                  <div class="contenido">
+                      <h3>Designed with Sketch!</h3>
+                      <p>
+                          Easily change/switch/swap every placeholder inside every image on Sedna with the included Sketch files.
+                          You’ll have this template customised to suit your
+                          business in no time!
+                      </p>
+                      <p>
+                          Nam vehicula malesuada lectus, interdum fringilla
+                          nibh. Duis aliquam vitae metus a pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum augue quis augue ornare, eget faucibus felis pharetra. Proin condimentum et leo
+                          quis fringilla.
+                      </p>
+                      <a href="#" class="bt3 l">WHAT'S SKETCH?</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div data-aos="fade-left"data-aos-offset="300" data-aos-easing="ease-in-sine" class="macbook-wrap">
+        <div class="responsive2-img">
+            <img src="assets/macbook-pro@2x.png" width="819" height="477">
+        </div>
+    </div>
+
+  </section>
+  <section  class=" introduccion4">
+        <div class="container">
+            <div class="row">
+                <div class="col-m12">
+                    <h4>
+                        Customise Sedna with the included
+                        <span class="sketch">
+                            Sketch
+                            <i class="vers">3</i>
+                        </span>
+                        file
+                    </h4>
+                    <p>
+                        Change/swap/edit every aspect of Sedna before
+                        you hit development with the included Sketch file.
+                    </p>
+                    <a href="#" class="bt4">DOWNLOAD NOW!</a>
+                    <div class="logod">
+                            <img src="assets/sketch-logo.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<section id="blog" class=" section  scrollspy  introduccion5">
+    <div class="container">
+        <div class="row">
+            <div class="col m12">
+                <h3>Showcase your smashing product with Sedna</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m6 s12  left-align">
+                <h5>EXCLUSIVE TO CODROPS</h5>
+                <p>
+                    Minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt
+                    in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="col m6 s12 left-align2">
+                <h5>SPREADING PIXELS AROUND THE WORLD</h5>
+                <p>
+                    Minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt
+                    in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="introduccion6">
+    <div class="row">
+        <div class="col m12 l4">
+            <div class="galeria">
+                <img class="responsive-img"  src="assets/blog-img-01.jpg" >
+                <div class="mascara">
+                    <img  src="assets/lupa.png" >
+                </div>
+            </div>
+            <h2 class="center">
+                <a href="#">PRODUCT</a>
+            </h2>
+            <p>
+                <a class="z" href="#">Getting started with Sedna ></a>
+            </p>
+        </div>
+        <div class="col m12 l4 ">
+            <div class="galeria">
+                <img class="responsive-img"  src="assets/blog-img-02.jpg" >
+                <div class="mascara">
+                    <img  src="assets/lupa.png" >
+                </div>
+            </div>
+            <h2>
+                <a href="#">TECHNOLOGY</a>
+            </h2>
+            <p>
+                <a class="z" href="#">Why IE8 support is deminishing ></a>
+            </p>
+        </div>
+        <div class="col m12 l4 ">
+            <div class="galeria">
+                <img class="responsive-img"  src="assets/blog-img-03.jpg" >
+                <div class="mascara">
+                    <img  src="assets/lupa.png" >
+                </div>
+            </div>
+            <h2>
+                <a href="#">PRODUCT</a>
+            </h2>
+            <p>
+                <a class="z" href="#">Sedna tutorial: How to begin your ></a>
+            </p>
+        </div>
+        <a href="#" class="boton">MORE NEWS</a>
+    </div>
+</section>
+
+<section class="intro-siete">
+            <div class="row">
+                <div class="col s12 ">
+                    <div class="carousel carousel-slider center">
+                        <div class="carousel-item center-align" href="#one!">
+                            <div class="imgslide1 circle"></div>
+                            <h2>"Lorem ipsum dolor sit amet, nullam lucia nisi."</h2>
+                            <h5 class="light  text-lighten-3">PETER FINLAN, PRODUCT DESIGNER</h5>
+                        </div>
+
+                        <div class="carousel-item center-align" href="#two!">
+                            <div class="imgslide2 circle"></div>
+                            <h2>"Nunc vel maximus purus. Nullam ac urna ornare."</h2>
+                            <h5 class="light  text-lighten-3">MANOELA ILIC, FOUNDER @ CODROPS.</h5>
+                        </div>
+
+                        <div class="carousel-item center-align" href="#three!">
+                            <div class="imgslide3 circle"></div>
+                            <h2>"Nullam ac urna ornare, ultrices nisl ut, lacinia nisi."</h2>
+                            <h5 class="light  text-lighten-3">BLAZ ROBAR, PIXEL GURU</h5>
+                        </div>
+                        <div class="arrowleft">
+                            <i class="medium material-icons">chevron_left</i>
+                        </div>
+                        <div class="arrowright">
+                            <i class="medium material-icons">chevron_right</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+<section id="download" class="section  scrollspy introduccion8">
+    <div class="container ">
+        <div class="row">
+            <div class="col m6 offset-m3 " >
+                <h3>Get started with Sedna, absolutely free</h3>
+                <p>Grab your copy today, exclusively from Codrops</p>
+                <form class="singup" action="#">
+                    <div class="formu">
+                        <i class=" material-icons">email</i>
+                        <input type="text" class="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="formu">
+                        <i class=" material-icons">enhanced_encryption</i>
+                        <input id="password" type="password" placeholder="Enter your password" class="validate" required>
+                    </div>
+
+                </form>
+                <a href="#" class="bt4"><button type="submit" class="btn-fill sign-up-btn" >SIGN UP FOR FREE</button></a>
+            </div>
+        </div>
+    </div>
+</section>
 
 
     <script src="js/materialize.min.js"></script>
-    <script src="js/app.js"></script>
-</body>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </html>
